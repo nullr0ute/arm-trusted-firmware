@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2019, ARM Limited and Contributors. All rights reserved.
+ * Copyright (c) 2016-2023, ARM Limited and Contributors. All rights reserved.
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
@@ -105,8 +105,6 @@ void bl31_plat_arch_setup(void)
 	plat_configure_mmu_el3(BL31_START,
 			       BL31_END - BL31_START,
 			       BL_CODE_BASE,
-			       BL_CODE_END,
-			       0,
-			       0);
+			       BL_CODE_END);
 #endif
 }
