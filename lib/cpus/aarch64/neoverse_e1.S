@@ -42,7 +42,7 @@ func neoverse_e1_cpu_pwr_dwn
 	ret
 endfunc neoverse_e1_cpu_pwr_dwn
 
-.section .rodata.neoverse_e1_regs, "aS"
+.section .rodata.neoverse_e1_regs, "aS", 1
 neoverse_e1_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

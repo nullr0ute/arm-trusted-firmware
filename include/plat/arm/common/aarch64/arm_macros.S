@@ -11,7 +11,7 @@
 #include <drivers/arm/gicv3.h>
 #include <platform_def.h>
 
-.section .rodata.gic_reg_name, "aS"
+.section .rodata.gic_reg_name, "aS", 1
 /* Applicable only to GICv2 and GICv3 with SRE disabled (legacy mode) */
 gicc_regs:
 	.asciz "gicc_hppir", "gicc_ahppir", "gicc_ctlr", ""

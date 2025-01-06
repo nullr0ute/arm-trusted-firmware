@@ -40,7 +40,7 @@ func nevis_core_pwr_dwn
 	ret
 endfunc nevis_core_pwr_dwn
 
-.section .rodata.nevis_regs, "aS"
+.section .rodata.nevis_regs, "aS", 1
 nevis_regs: /* The ASCII list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

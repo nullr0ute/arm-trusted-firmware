@@ -305,7 +305,7 @@ endfunc denver_cluster_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.denver_regs, "aS"
+.section .rodata.denver_regs, "aS", 1
 denver_regs:  /* The ascii list of register names to be reported */
 	.asciz	"actlr_el1", ""
 

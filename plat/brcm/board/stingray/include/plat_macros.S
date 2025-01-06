@@ -7,7 +7,7 @@
 #ifndef PLAT_MACROS_S
 #define PLAT_MACROS_S
 
-.section .rodata.gic_reg_name, "aS"
+.section .rodata.gic_reg_name, "aS", 1
 gicc_regs:
 	.asciz "gicc_hppir", "gicc_ahppir", "gicc_ctlr", ""
 gicd_pend_reg:

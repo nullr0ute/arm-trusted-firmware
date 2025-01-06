@@ -59,7 +59,7 @@ endfunc pm_asm_code
 	 * switching aarch64 mode.
 	 */
 	.align	3
-	.section .rodata.v7_asm, "aS"
+	.section .rodata.v7_asm, "aS", 1
 v7_asm:
 	.word	0xE1A00000	// nop
 	.word	0xE3A02003	// mov r2, #3

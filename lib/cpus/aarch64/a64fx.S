@@ -25,7 +25,7 @@ endfunc a64fx_cluster_pwr_dwn
          * reported.
          * ---------------------------------------------
          */
-.section .rodata.a64fx_regs, "aS"
+.section .rodata.a64fx_regs, "aS", 1
 a64fx_regs:  /* The ascii list of register names to be reported */
         .asciz  ""
 

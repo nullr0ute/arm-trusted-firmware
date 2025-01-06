@@ -213,7 +213,7 @@ func plat_report_exception
 	ret
 endfunc plat_report_exception
 
-.section .rodata.rev_err_str, "aS"
+.section .rodata.rev_err_str, "aS", 1
 plat_err_str:
 	.asciz "\nPlatform exception reporting:"
 esr_el3_str:

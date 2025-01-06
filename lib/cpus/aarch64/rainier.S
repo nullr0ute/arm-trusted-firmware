@@ -89,7 +89,7 @@ endfunc rainier_core_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.rainier_regs, "aS"
+.section .rodata.rainier_regs, "aS", 1
 rainier_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

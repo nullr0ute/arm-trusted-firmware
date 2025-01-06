@@ -12,7 +12,7 @@
 	 */
 #define ASM_ASSERT(_cc) \
 .ifndef .L_assert_filename ;\
-	.pushsection .rodata.str1.1, "aS" ;\
+	.pushsection .rodata.str1.1, "aS", 1 ;\
 	.L_assert_filename: ;\
 			.string	__FILE__ ;\
 	.popsection ;\

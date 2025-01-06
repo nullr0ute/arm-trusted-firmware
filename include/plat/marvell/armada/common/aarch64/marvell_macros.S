@@ -18,7 +18,7 @@
  *	These Macros are required by ATF
  */
 
-.section .rodata.gic_reg_name, "aS"
+.section .rodata.gic_reg_name, "aS", 1
 /* Applicable only to GICv2 and GICv3 with SRE disabled (legacy mode) */
 gicc_regs:
 	.asciz "gicc_hppir", "gicc_ahppir", "gicc_ctlr", ""
@@ -103,7 +103,7 @@ exit_print_gic_regs:
 	.endm
 
 
-.section .rodata.cci_reg_name, "aS"
+.section .rodata.cci_reg_name, "aS", 1
 cci_iface_regs:
 	.asciz "cci_snoop_ctrl_cluster0", "cci_snoop_ctrl_cluster1" , ""
 

@@ -23,7 +23,7 @@
 #define ASCII_OFFSET_NUM	'0'
 
 #if ENABLE_ASSERTIONS
-.section .rodata.assert_str, "aS"
+.section .rodata.assert_str, "aS", 1
 assert_msg1:
 	.asciz "ASSERT: File "
 assert_msg2:
@@ -162,7 +162,7 @@ endfunc asm_print_hex
 	 * The common implementation of el3_panic for all BL stages
 	 ***********************************************************/
 
-.section .rodata.panic_str, "aS"
+.section .rodata.panic_str, "aS", 1
 	panic_msg: .asciz "PANIC at PC : 0x"
 	panic_end: .asciz "\r\n"
 

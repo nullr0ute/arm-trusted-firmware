@@ -12,7 +12,7 @@
 #include <hi3660.h>
 #include <platform_def.h>
 
-.section .rodata.gic_reg_name, "aS"
+.section .rodata.gic_reg_name, "aS", 1
 gicc_regs:
 	.asciz "gicc_hppir", "gicc_ahppir", "gicc_ctlr", ""
 gicd_pend_reg:
@@ -22,7 +22,7 @@ newline:
 spacer:
 	.asciz ":\t\t0x"
 
-.section .rodata.cci_reg_name, "aS"
+.section .rodata.cci_reg_name, "aS", 1
 cci_iface_regs:
 	.asciz "cci_snoop_ctrl_cluster0", "cci_snoop_ctrl_cluster1" , ""
 

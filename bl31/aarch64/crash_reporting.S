@@ -27,7 +27,7 @@
 	 * be dumped during a unhandled exception is given below.
 	 * ------------------------------------------------------
 	 */
-.section .rodata.crash_prints, "aS"
+.section .rodata.crash_prints, "aS", 1
 print_spacer:
 	.asciz	"             = 0x"
 

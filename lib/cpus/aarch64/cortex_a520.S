@@ -82,7 +82,7 @@ cpu_reset_func_end cortex_a520
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.cortex_a520_regs, "aS"
+.section .rodata.cortex_a520_regs, "aS", 1
 cortex_a520_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

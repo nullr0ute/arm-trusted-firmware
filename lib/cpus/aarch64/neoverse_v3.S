@@ -76,7 +76,7 @@ cpu_reset_func_end neoverse_v3
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.neoverse_v3_regs, "aS"
+.section .rodata.neoverse_v3_regs, "aS", 1
 neoverse_v3_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

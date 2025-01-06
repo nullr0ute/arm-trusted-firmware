@@ -297,7 +297,7 @@ endfunc neoverse_n2_core_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.neoverse_n2_regs, "aS"
+.section .rodata.neoverse_n2_regs, "aS", 1
 neoverse_n2_regs:  /* The ASCII list of register names to be reported */
 	.asciz	"cpupwrctlr_el1", ""
 

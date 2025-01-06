@@ -54,7 +54,7 @@ func travis_core_pwr_dwn
 	ret
 endfunc travis_core_pwr_dwn
 
-.section .rodata.travis_regs, "aS"
+.section .rodata.travis_regs, "aS", 1
 travis_regs: /* The ASCII list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

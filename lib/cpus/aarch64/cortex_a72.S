@@ -280,7 +280,7 @@ endfunc cortex_a72_cluster_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.cortex_a72_regs, "aS"
+.section .rodata.cortex_a72_regs, "aS", 1
 cortex_a72_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", "cpumerrsr_el1", "l2merrsr_el1", ""
 

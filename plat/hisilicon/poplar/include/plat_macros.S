@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-.section .rodata.gic_reg_name, "aS"
+.section .rodata.gic_reg_name, "aS", 1
 	.macro plat_crash_print_regs
 	nop
 	.endm

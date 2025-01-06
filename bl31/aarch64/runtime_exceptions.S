@@ -308,7 +308,7 @@ vector_entry serror_aarch32
 end_vector_entry serror_aarch32
 
 #ifdef MONITOR_TRAPS
-	.section .rodata.brk_string, "aS"
+	.section .rodata.brk_string, "aS", 1
 brk_location:
 	.asciz "Error at instruction 0x"
 brk_message:

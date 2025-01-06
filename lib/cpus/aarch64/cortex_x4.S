@@ -139,7 +139,7 @@ endfunc cortex_x4_core_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.cortex_x4_regs, "aS"
+.section .rodata.cortex_x4_regs, "aS", 1
 cortex_x4_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

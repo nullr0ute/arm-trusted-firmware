@@ -11,7 +11,7 @@
 #include <drivers/arm/cci.h>
 #include <platform_def.h>
 
-.section .rodata.cci_reg_name, "aS"
+.section .rodata.cci_reg_name, "aS", 1
 cci_iface_regs:
 	.asciz "cci_snoop_ctrl_cluster0", "cci_snoop_ctrl_cluster1" , ""
 

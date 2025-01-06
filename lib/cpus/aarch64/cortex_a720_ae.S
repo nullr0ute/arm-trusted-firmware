@@ -50,7 +50,7 @@ endfunc cortex_a720_ae_core_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.cortex_a720_ae_regs, "aS"
+.section .rodata.cortex_a720_ae_regs, "aS", 1
 cortex_a720_ae_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

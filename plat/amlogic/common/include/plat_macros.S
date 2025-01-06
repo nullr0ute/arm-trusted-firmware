@@ -10,7 +10,7 @@
 #include <drivers/arm/gicv2.h>
 #include <platform_def.h>
 
-.section .rodata.gic_reg_name, "aS"
+.section .rodata.gic_reg_name, "aS", 1
 
 gicc_regs:
 	.asciz "gicc_hppir", "gicc_ahppir", "gicc_ctlr", ""

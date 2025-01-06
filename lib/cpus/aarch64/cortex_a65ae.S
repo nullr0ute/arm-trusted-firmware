@@ -41,7 +41,7 @@ func cortex_a65ae_cpu_pwr_dwn
 	ret
 endfunc cortex_a65ae_cpu_pwr_dwn
 
-.section .rodata.cortex_a65ae_regs, "aS"
+.section .rodata.cortex_a65ae_regs, "aS", 1
 cortex_a65ae_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

@@ -56,7 +56,7 @@ endfunc cortex_x925_core_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.cortex_x925_regs, "aS"
+.section .rodata.cortex_x925_regs, "aS", 1
 cortex_x925_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

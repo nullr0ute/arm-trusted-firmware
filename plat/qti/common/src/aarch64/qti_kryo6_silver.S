@@ -44,7 +44,7 @@ endfunc qti_kryo6_silver_cluster_pwr_dwn
  * reported.
  * ---------------------------------------------
  */
-.section .rodata.qti_kryo4_silver_regs, "aS"
+.section .rodata.qti_kryo4_silver_regs, "aS", 1
 qti_kryo6_silver_regs:  /* The ASCII list of register names to be reported */
 	.asciz	""
 

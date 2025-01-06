@@ -56,7 +56,7 @@ endfunc qemu_max_cluster_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.qemu_max_regs, "aS"
+.section .rodata.qemu_max_regs, "aS", 1
 qemu_max_regs:  /* The ascii list of register names to be reported */
 	.asciz	"" /* no registers to report */
 

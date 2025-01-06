@@ -14,7 +14,7 @@
 	 * The common implementation of el3_panic for all BL stages
 	 ***********************************************************/
 
-.section .rodata.panic_str, "aS"
+.section .rodata.panic_str, "aS", 1
 	panic_msg: .asciz "PANIC at PC : 0x"
 
 /*

@@ -198,7 +198,7 @@ cpu_reset_func_end cortex_x2
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.cortex_x2_regs, "aS"
+.section .rodata.cortex_x2_regs, "aS", 1
 cortex_x2_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

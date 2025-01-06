@@ -49,7 +49,7 @@ endfunc cortex_a725_core_pwr_dwn
 	 * reported.
 	 * ---------------------------------------------
 	 */
-.section .rodata.cortex_a725_regs, "aS"
+.section .rodata.cortex_a725_regs, "aS", 1
 cortex_a725_regs:  /* The ascii list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 

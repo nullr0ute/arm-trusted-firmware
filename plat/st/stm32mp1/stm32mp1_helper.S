@@ -312,7 +312,7 @@ func plat_panic_handler
 endfunc plat_panic_handler
 
 #if DEBUG
-.section .rodata.rev_err_str, "aS"
+.section .rodata.rev_err_str, "aS", 1
 prefetch_abort_str:
 	.asciz "\nPrefetch Abort at: 0x"
 data_abort_str:

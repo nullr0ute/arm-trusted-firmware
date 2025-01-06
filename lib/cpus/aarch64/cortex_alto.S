@@ -51,7 +51,7 @@ func cortex_alto_core_pwr_dwn
 	ret
 endfunc cortex_alto_core_pwr_dwn
 
-.section .rodata.cortex_alto_regs, "aS"
+.section .rodata.cortex_alto_regs, "aS", 1
 cortex_alto_regs: /* The ASCII list of register names to be reported */
 	.asciz	"cpuectlr_el1", ""
 
